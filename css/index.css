@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(42, 42, 42);
+}
+
+header {
+    background-color: rgb;
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #10bd67;
+  }
+
+
+.left-text {
+    color: #f2f2f2;
+    font-size: 20px;
+    }
+  
+
+.right-text {
+    font-size: 16px;
+    color: #8d8d8d;
+    background-color: rgb;
+    font-style: italic;
+    border: 2px solid #656565;
+    border-radius: 5px;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    }
+
+.right-text:hover {
+    background-color: #10bd67cc;
+    color: #ffffff;
+    border-color: #10bd67cc;
+    }
+
+.custom-box {
+    width: 800px;
+    height: 80px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+.message-box {
+    width: 800px;
+    height: 25px;
+    background-color: #10bd67cc;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+        }
+
+.status-box {
+    width: 800px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+.status-box-1 {
+    height: 35px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 17px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+        }
+
+.status-box-2 {
+    height: 35px;
+    background-color: rgba(42, 42, 42, 0);
+    color: white;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2d2d2d;
+        }
+.status-left-2 {
+    padding-left: 60px;
+}
+
+.status-right-2 {
+    padding-right: 60px;
+}
+
+.footer {
+    font-size: 15px;
+    color: #c6c6c6;
+    margin: 50px;
+}
