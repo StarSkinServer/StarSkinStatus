@@ -1,5 +1,5 @@
-const idsToCheck = [795811475, 796066690, 796066693, 796066687];
-const url = 'https://api.star-skin.cn/timebot/status.php';
+const idsToCheck = [1, 16690, 796061, 79601687];
+const url = 'api';
 
 async function getStatusAndUpdateHTML() {
   try {
